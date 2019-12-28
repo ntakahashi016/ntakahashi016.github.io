@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ntakahashi's Portfolio</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="logo">
+        <span class="logo-title">ntakahashi's Portfolio</span>
+        <br>
+        <span class="logo-desc">IT Engineer</span>
+      </h1>
+    </header>
+      <nav class="sticky-top gnav">
+        <ul>
+          <li><i><a href="#Profile">PROFILE</a></i></li>
+          <li><i><a href="#Skill">SKILL</a></i></li>
+          <li><i><a href="#Work">WORK</a></i></li>
+          <li><i><a href="#Contact">CONTACT</a></i></li>
+        </ul>
+      </nav>
+    <main id="contents">
+      <article>
+        <section id="Profile">
+          <h2 class="section-title">
+            <img src="./images/profile.png" width="40" height="40">
+            Profile
+          </h2>
+          <div class="profile-wraper">
+            <div class="profile-image">
+              <img src="./images/ntakahashi.png" alt="自分のイメージ画像">
+            </div>
+            <div class="profile-desc">
+              <p>1991年生まれのITエンジニア、ntakahashi(エヌ・タカハシ)と申します。新卒で某大手(たぶん)SIerに就職。主に組込み関係のSEをしていました。
+                <br>組込み系といってもソフトだけでなくFPGAの開発もできます。
+                <br>また、インフラエンジニア(サーバ、ネットワーク)としての経験もあります。</p>
+            </div>
+          </div>
+        </section>
+        <section id="Skill">
+          <h2 class="section-title">
+            <img src="./images/skill.png" width="40" height="40">
+            Skill
+          </h2>
+          <div class="container cardwraper">
+            <div class="row justify-content-around">
+              <div class="col-md-6 col-xl-4 p-5 card">
+                <h3 class="text-center">Programing</h3>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Level</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>C/C++</td>
+                      <td>★★★☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>Ruby</td>
+                      <td>★★★★★</td>
+                    </tr>
+                    <tr>
+                      <td>JavaScript</td>
+                      <td>★☆☆☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>HTML</td>
+                      <td>★☆☆☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>CSS</td>
+                      <td>★☆☆☆☆</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-md-6 col-xl-4 p-5 card">
+                <h3 class="text-center">FrameWork</h3>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Level</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Rails</td>
+                      <td>☆☆☆☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>Laravel</td>
+                      <td>☆☆☆☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>Vue.js</td>
+                      <td>☆☆☆☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>Bootstrap</td>
+                      <td>★☆☆☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>Qt</td>
+                      <td>★★★☆☆</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-md-6 col-xl-4 p-5 card">
+                <h3 class="text-center">FPGA</h3>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Level</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>VHDL</td>
+                      <td>★★☆☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>VerilogHDL</td>
+                      <td>★★★☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>Intel</td>
+                      <td>★★☆☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>Xilinx</td>
+                      <td>★★★☆☆</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-md-6 col-xl-4 p-5 card">
+                <h3>Network</h3>
+              </div>
+              <div class="col-md-6 col-xl-4 p-5 card">
+                <h3>Server</h3>
+              </div>
+              <div class="col-md-6 col-xl-4 p-5 card">
+                <h3>Tools</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="Work">
+          <h2 class="section-title">
+            <img src="./images/work.png" width="40" height="40">
+            Work
+          </h2>
+        </section>
+        <section id="Contact">
+          <h2 class="section-title">
+            <img src="./images/contact.png" width="40" height="40">
+            Contact
+          </h2>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p><small>(c)2019 ntakahashi016</small></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+@charset "utf-8"
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-famirly: Helvetica,Arial,YuGothic,"游ゴシック体","Yu Gothic","游ゴシック","ヒラギノ角ゴ ProN","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: left;
+    background: #EEEEEE;
+}
+
+p {
+    font-size: 1.0rem;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.gnav li{
+    display: inline-block;
+    /* background: #FFDDAA */
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo {
+    text-align: center;
+    background: url(../images/logo_background.jpg) center center;
+    /* background: #EA671A; */
+    color: #FFFFFF;
+    font-size: 2.8rem;
+    padding: 35px 0;
+}
+
+.logo-title {
+}
+
+.logo-desc {
+}
+
+.profile-wraper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    frex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.profile-image {
+    width: 33%;
+}
+
+.profile-desc {
+    width: 66%;
+}
+
+.section-title {
+    background: #FAFAFA;
+    color: #4B4B4B;
+    font-size: 2.8rem;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.card-wraper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.card {
+    background-color: #FAFAFA;
+}
+
